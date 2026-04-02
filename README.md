@@ -28,6 +28,7 @@ git clone https://github.com/your-username/data-parser-extension.git
 2. Зайти в ```chrome://extensions``` та включити **Режим розробника** у правому верхньому куті.
 
 3. Завантажити папку з розширенням:
+
 ![Демонстрація імпорту](./instr1.jpg)
 
-4. Запустити в **Google Chrome)**
+5. Запустити в **Google Chrome)**
