@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <span class="logo">&#9679;</span>
+        <span class="title">Звіт уроку</span>
+    </div>
+
+    <textarea id="output" placeholder="Натисніть кнопку щоб створити звіт..."></textarea>
+
+    <div class="actions">
+        <button id="scrape">Створити звіт</button>
+        <button id="copy" class="copy-btn" disabled>Копіювати</button>
+    </div>
+
+    <div id="toast" class="toast">Скопійовано!</div>
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>
