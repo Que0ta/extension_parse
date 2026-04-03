@@ -25,6 +25,8 @@
 ```bash
 git clone https://github.com/your-username/data-parser-extension.git
 ```
+![Демонстрація імпорту](./assets/instr2.jpg)
+
 2. Зайти в ```chrome://extensions``` та включити **Режим розробника** у правому верхньому куті.
 
 3. Завантажити папку з розширенням:
