@@ -15,7 +15,7 @@
 
 ## 🌐 Вигляд UI
 
-![Демонстрація розширення](./demo.jpg)
+![Демонстрація розширення](./assets/demo.jpg)
 
 ---
 
@@ -29,6 +29,6 @@ git clone https://github.com/your-username/data-parser-extension.git
 
 3. Завантажити папку з розширенням:
 
-![Демонстрація імпорту](./instr1.jpg)
+![Демонстрація імпорту](./assets/instr1.jpg)
 
 5. Запустити в **Google Chrome)**
