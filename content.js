@@ -3,7 +3,7 @@ const msPerDay = 86400000;
 
 async function sendPrompt(text) {
   try {
-    const response = await fetch('https://reportsapi-d8ja.onrender.com/api/prompt', {
+    const response = await fetch('https://datarepapp.onrender.com/api/prompt', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
