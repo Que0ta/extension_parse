@@ -130,6 +130,7 @@ async function readAtIndex(row, index) {
 }
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  const nameCource = document.querySelector(".ant-spin-container a").textContent;
   if (message.action !== "scrapeAttendance") return;
 
   (async () => {
@@ -163,7 +164,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       if (status === "Відсутній") absentStudents.push(name);
     }
 
-    const textD = await sendPrompt(`Напиши коротко, що ми робили з учнями за цією темою: ${results[0].lesson}. Без всяких емоджі та символів, простими 1-2 реченнями.`)
+    const textD = await sendPrompt(`Напиши коротко, що ми робили з учнями за цією темою: ${results[0].lesson} з курсу ${nameCource}. Без всяких емоджі та символів, простими 1-2 реченнями.`)
     console.log('result', textD.text);
     
     sendResponse({
